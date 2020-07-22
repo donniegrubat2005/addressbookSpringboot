@@ -24,10 +24,10 @@ export class ContactFormComponent implements OnInit {
   ngOnInit(): void {
     this.contactForm = this.fb.group({
       id: [''],
-      first_name: ['', Validators.required],
-      last_name: ['', Validators.required],
+      firstName: ['', Validators.required],
+      lastName: ['', Validators.required],
       gender: ['', Validators.required],
-      date_of_birth: ['', Validators.required],
+      dateOfBirth: ['', Validators.required],
     });
 
     this.contactId = this.route.snapshot.params.id;

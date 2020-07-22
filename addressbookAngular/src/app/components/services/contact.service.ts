@@ -19,7 +19,7 @@ export class ContactService {
 
   getContact(id: number): Observable<any[]> {
     let url = this.httpHelperService.getApiUrl() + '/api/contacts';
-    return this.http.get<any[]>(url + '/' + id + '/edit');
+    return this.http.get<any[]>(url + '/' + id);
   }
 
   public save(contact: any) {

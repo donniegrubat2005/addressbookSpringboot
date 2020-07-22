@@ -1,0 +1,5 @@
+package com.donniegrubat2005.addressbookSpringboot.config;
+
+public class SwaggerConfig {
+
+}
