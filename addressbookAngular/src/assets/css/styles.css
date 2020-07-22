@@ -1,0 +1,66 @@
+body {
+  color: #335564;
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+.thead-light thead {
+  background-color: #e3e9ef;
+}
+/*  search box swapping to left code*/
+.dataTables_wrapper .myfilter .dataTables_filter {
+  float: left;
+}
+.dataTables_wrapper .mylength .dataTables_length {
+  float: right;
+}
+
+.input-group-append .btn,
+.input-group-prepend .btn {
+  min-width: 0;
+}
+.form-inline .input-group {
+  margin-bottom: 0rem;
+}
+.ms-content-wrapper {
+  padding: 30px;
+  padding-top: 35px;
+}
+.btn {
+  margin-top: 0px;
+  margin-left: 5px;
+}
+.btn-rounded {
+  border-radius: 25px;
+}
+
+.back-button {
+  float: right;
+  margin: 0px 0px 0px 0px;
+}
+.page-title {
+  float: left;
+  margin: 0px 0px 0px 0px;
+}
+.error {
+  color: red;
+}
+input[type="submit"]:disabled,
+button[type="submit"]:disabled {
+  cursor: not-allowed;
+}
+.form-row > .col,
+.form-row > [class*="col-"] {
+  padding-right: 32px;
+  padding-left: 5px;
+}
+.ms-panel-body,
+.ms-panel-footer {
+  padding: 3.5rem;
+}
+
+@media (min-width: 992px) {
+}
+@media (min-width: 1200px) {
+}
